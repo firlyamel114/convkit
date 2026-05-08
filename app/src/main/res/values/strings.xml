@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="pilih">Pilih</string>
+    <string name="ke">Ke</string>
+    <string name="pilih1">Pilih</string>
+    <string name="dari">Dari</string>
+    <string name="masukkan_angka">Masukkan Angka</string>
+    <string-array name="Dari">
+        <item>Desimal</item>
+        <item>Biner</item>
+        <item>Oktal</item>
+        <item>Heksadesimal</item>
+    </string-array>
+    <string-array name="Ke">
+        <item>Desimal</item>
+        <item>Biner</item>
+        <item>Oktal</item>
+        <item>Heksadesimal</item>
+    </string-array>
+</resources>

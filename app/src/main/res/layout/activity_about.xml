@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityAbout">
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/oren"
+            android:minHeight="?attr/actionBarSize">
+
+
+            <ImageButton
+                android:id="@+id/icon_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:background="#00FFFFFF"
+                android:clickable="true"
+                android:layout_marginStart="50dp"
+                android:src="@drawable/ic_back" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/sofiasans_bold"
+                android:gravity="center_vertical"
+                android:text="Tentang"
+                android:paddingLeft="10dp"
+                android:paddingRight="23dp"
+                android:textColor="@color/black"
+                android:textSize="24sp" />
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/sofiasans_bold"
+        android:text="Conv - Kit"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.148" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="308dp"
+        android:layout_height="383dp"
+        android:fontFamily="@font/sofiasans_regular"
+        android:justificationMode="inter_word"
+        android:text="Conv-Kit adalah aplikasi konversi bilangan decimal ke biner, octal, dan hexadecimal. Fitur utamanya memungkinkan pengguna melakukan konversi dengan cepat tanpa perhitungan manual. Berguna dalam ilmu komputer, matematika, dan pemrograman, Conv-Kit menyediakan antarmuka intuitif dan lengkap. Baik Anda seorang mahasiswa, programmer, atau siapa pun yang berurusan dengan angka, Conv-Kit hadir untuk menyederhanakan tugas konversi Anda dan mengoptimalkan alur kerja."
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.167" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
