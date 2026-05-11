@@ -3,7 +3,15 @@
 **ConvKit** is an Android-based number system converter calculator that allows users to easily and accurately convert between **Decimal, Binary, Octal, and Hexadecimal** — in both directions.
 
 ---
+## 📱 Screenshots
 
+<p align="center">
+  <img width="220" src="https://github.com/user-attachments/assets/d5033880-9e45-4871-9b15-18f0aff58893" />
+  <img width="220" src="https://github.com/user-attachments/assets/93e311b3-5718-4f63-ad89-c9600879bcb5" />
+  <img width="220" src="https://github.com/user-attachments/assets/38c5e37b-8d84-4959-aed6-14d4847678dc" />
+    <img width="220" src="https://github.com/user-attachments/assets/abc76749-8db8-48ac-9af8-55bf91e5377c" />
+</p>
+---
 
 ## ✨ Features
 
